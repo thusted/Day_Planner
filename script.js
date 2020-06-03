@@ -91,15 +91,15 @@ $(document).ready(function() {
 
         if(time < currentHour){
             $(this).addClass("past");
-        }
+        };
 
         if(time === currentHour) {
             $(this).addClass("present");
-        }
+        };
 
         if(time > currentHour) {
             $(this).addClass("future");
-        }
+        };
     });
     
     getTasks();
